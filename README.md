@@ -74,19 +74,13 @@
 **平台亮点：**
 
 - **🆓 无限 Token 流量** — 不限调用次数，不限 Token 用量，真正零成本
-- **🤖 主流模型全覆盖** — GPT-4o、Claude、Gemini、DeepSeek 等热门模型开箱即用
+- **🤖 主流模型全覆盖** — GPT-5.4、Claude、Gemini、DeepSeek 等热门模型开箱即用
 - **⚡ 即开即用** — 注册即可获取 API Key，兼容 OpenAI 接口格式，无缝对接 OpenClaw
 - **🔒 安全稳定** — 内部公益项目，长期维护，稳定可靠
 
 **配合 OpenClaw 使用：**
 
-```bash
-# 初始化时选择 "OpenAI Compatible" 提供商
-openclaw onboard
-
-# 或直接修改配置，填入 gpt.qt.cool 的 API Key
-openclaw config set agents.defaults.model openai/gpt-4o
-```
+在 [gpt.qt.cool](https://gpt.qt.cool/) 获取 API Key 后，初始化 OpenClaw 时选择 **OpenAI Compatible** 提供商，填入地址和 Key 即可。支持 GPT-5.4、Claude、Gemini、DeepSeek 等主流模型。
 
 > 💡 **省钱小贴士**：搭配 OpenClaw 使用，相当于拥有了一个免费的私人 AI 助手，日常聊天、写代码、处理文档全部零成本！
 
